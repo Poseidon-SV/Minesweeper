@@ -43,7 +43,7 @@ class Board:
         # hit a bomb -> game over
         # dig at a location with neighboring bombs -> finish dig
         # dig at a location with no neighboring bombs -> recursively dig neighbors!
-        pass
+        return True
     def __str__(self):
         # return a string that shows the board to the player
         # note: this part is kinda hard to get the formatting right, you don't have to do it the same way
